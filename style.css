@@ -3,13 +3,13 @@
     padding:0px;
     margin:0px;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-style: normal;
 }
 body{
     background-color: #1b1c1c;
     color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .nav-item{
     transition: all 2s linear;
@@ -22,7 +22,7 @@ body{
 }
 
 .hero-section{
-    background:url(/Projects/Asserts/background2.jpg) no-repeat center;
+    background:url(./Asserts/background2.jpg) no-repeat center;
     background-size:cover;
     width:100%;
     height:75vh;
@@ -60,7 +60,6 @@ body{
 .contactform .form-control{
     border:none;
     border-bottom:1px solid black;
-    padding:0;
 }
 .form-control:focus, .form-control:active{
     border-color: #01d28e!important;
